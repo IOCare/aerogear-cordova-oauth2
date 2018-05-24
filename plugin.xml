@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="aerogear-cordova-oauth2" version="1.0.5">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="aerogear-cordova-oauth2" 
+        version="1.0.5">
 
   <name>OAuth2</name>
+  <author>aerogear</author>
   <keywords>cordova,aerogear,oath2,google,keycloak,facebook</keywords>
+  <description>oAuth2 Plugin</description>
 
   <engines>
-    <engine name="cordova" version=">=3.4.0" />
-    <engine name="cordova-android" version=">=4.0.0" />
+    <engine name="cordova" version=">=6.4.0" />
+    <engine name="cordova-ios" version=">=4.3.0" />
+    <engine name="cordova-android" version=">=5.1.0" />
+    <engine name="apple-xcode" version=">=8.0.0" />
+    <engine name="apple-ios" version=">=7.0.0" />
   </engines>
 
   <asset src="www/oauth2.js" target="js/oauth2.js" />
