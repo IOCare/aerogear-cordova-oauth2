@@ -1,6 +1,9 @@
 {
   "version": "1.0.5",
   "name": "aerogear-cordova-oauth2",
+  "cordova_name": "Aerogear Cordova oAuth2",
+  "description": "The plugin handles OAuth2 *authorization code grant* in a secure manner. The OAuth2 dance uses external browser approach, OAuth2 access and refresh tokens are stored securely encrypted in your native device. Supports iOS, android and windows phone platforms.",
+  "license": "MIT",  
   "platforms": [
     "android",
     "ios",
@@ -9,10 +12,9 @@
   "engines": [
     {
       "name": "cordova",
-      "version": ">=3.4.0"
+      "version": ">=4.0.0"
     }
   ],
-  "description": "The plugin handles OAuth2 *authorization code grant* in a secure manner. The OAuth2 dance uses external browser approach, OAuth2 access and refresh tokens are stored securely encrypted in your native device. Supports iOS, android and windows phone platforms.",
   "cordova": {
     "id": "aerogear-cordova-oauth2",
     "platforms": [
@@ -23,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aerogear/aerogear-cordova-oauth2.git"
+    "url": "git+https://github.com/IOCare/aerogear-cordova-oauth2.git"
   },
   "keywords": [
     "cordova",
@@ -40,7 +42,7 @@
   "author": "edewit",
   "license": "Apache2",
   "bugs": {
-    "url": "https://github.com/aerogear/aerogear-cordova-oauth2"
+    "url": "https://github.com/IOCare/aerogear-cordova-oauth2"
   },
-  "homepage": "https://github.com/aerogear/aerogear-cordova-oauth2"
+  "homepage": "https://github.com/IOCare/aerogear-cordova-oauth2"
 }
